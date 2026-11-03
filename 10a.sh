@@ -1,0 +1,7 @@
+echo "System Information"
+echo "Hostname:$(hostname)"
+echo "Operating system :$(uname -o)"
+echo "Kernal Version:$(uname -r)"
+echo "Architecture:$(uname -m)"
+echo "Current User:$(whoami)"
+echo "ipaddress:$(ip -4 addr show|grep inet)"
